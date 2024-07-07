@@ -1,4 +1,10 @@
 import pandas as pd
 
-df= pd.read_csv('/Users/sanchitbhardwaj/PycharmProjects/DE_Pandas/costs.csv')
-print(df)
+def read_csv_file(file_name):
+    try:
+        df = pd.read_csv(file_name)
+    except FileNotFoundError:
+        print("File not found in the given location")
+    else:
+        print(df)
+read_csv_file('/Users/sanchitbhardwaj/PycharmProjects/DE_Pandas/cost.csv')
