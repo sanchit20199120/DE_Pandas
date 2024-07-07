@@ -1,3 +1,6 @@
+
+# Testing name_function.py file function using unittest2 module
+
 import unittest2
 from name_function import get_formatted_name
 
