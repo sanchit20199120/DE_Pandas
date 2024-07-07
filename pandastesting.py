@@ -4,6 +4,9 @@ df1 = pd.read_csv('/Users/sanchitbhardwaj/PycharmProjects/DE_Pandas/costs.csv')
 print(df1)
 print(df1.shape)
 print(df1.columns)
+print(df1['EC2-Other($)'].unique())
+print(df1['EC2-Other($)'].nunique())
+
 
 df2 = pd.read_csv('/Users/sanchitbhardwaj/PycharmProjects/DE_Pandas/costs.csv')
 print(df2)
