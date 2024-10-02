@@ -1,1 +1,1 @@
-print("Hello World")
+print("Hello World. Today's date is 10/01/2024")
